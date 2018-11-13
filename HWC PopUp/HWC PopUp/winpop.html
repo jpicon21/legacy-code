@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="jquery.firstVisitPopup.js"></script> 
+<link rel="stylesheet" type="text/css" href="popup.css">
+<link rel="stylesheet" type="text/css" href="popupmobile.css">
+<script>
+    if(window.location.href == "")
+      $(function () {
+        $('#my-welcome-message').firstVisitPopup({
+          cookieName : 'homepage',
+          showAgainSelector: '#show-message'
+        });
+        $('#my-welcome-message-mobile').firstVisitPopup({
+          cookieName : 'homepage',
+          showAgainSelector: '#show-message'
+        });
+      });
+</script>
+</style>
+		</head>
+		<body>
+      <div id="my-welcome-message">
+          <img src= "" alt = "Pop Up" id="popup">
+          <a class="play-button" href="" target="_blank">Play Now</a>
+      </div>
+      <div id="my-welcome-message-mobile">
+          <img src= "" alt = "Pop Up" id="mobpopup">
+          <a class="down-button" href="" target="_blank">Download</a>
+      </div>
+</body>
+</html>

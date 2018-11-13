@@ -1,0 +1,14 @@
+@media (max-width: 993px){ 
+	.fancybox-title{
+		display: none;
+	}
+	.fancybox-image{
+		display: none;
+	}
+	#title-1{
+    	display: none;
+   }
+  	.hidden{
+  		display: none;
+  	}
+}
