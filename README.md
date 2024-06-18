@@ -1,5 +1,4 @@
-# professional
+# Legacy Code
 code samples
 
-These are barbone code samples of different projects I have done in my professional life.
-Due to certain restricitions I can't provide fully operational code since it may still be live on certain sites.
+Samples of components I created when I first started out my career as a VanillaJS/jquery developer.
